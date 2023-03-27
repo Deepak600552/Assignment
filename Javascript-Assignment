@@ -1,0 +1,13 @@
+function longestConsec(strarr, k) {
+
+    let result = " ";
+
+    strarr.slice(0,k).forEach(a => {
+
+        result+=a;
+
+    });
+
+    return result;
+
+};
